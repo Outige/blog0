@@ -1,6 +1,30 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 posts = [
+    {
+        'author': 'Tieg O',
+        'title': 'Post 0',
+        'content': 'Post 0 content',
+        'date_posted': 'April 18 2020'
+    },
+    {
+        'author': 'Erin O',
+        'title': 'Post 1',
+        'content': 'Post 1 content',
+        'date_posted': 'April 18 2020'
+    },
+    {
+        'author': 'Tieg O',
+        'title': 'Post 0',
+        'content': 'Post 0 content',
+        'date_posted': 'April 18 2020'
+    },
+    {
+        'author': 'Erin O',
+        'title': 'Post 1',
+        'content': 'Post 1 content',
+        'date_posted': 'April 18 2020'
+    },
     {
         'author': 'Tieg O',
         'title': 'Post 0',
