@@ -3,7 +3,10 @@ Blog/update type application
 
 ## instilations
 ```
+Strated with a clean virtualenv:
+
 pip3 install flask
+pip3 install flask-wtf
 ```
 
 ## requirements
