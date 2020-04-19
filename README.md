@@ -54,6 +54,5 @@ $ virtualenv -p /user/bin/pythonX.X env_name
 ```
 
 ## problems
-```
-- should try deploy. Maybe using heroku
-```
+> should try deploy. Maybe using heroku
+> url_for not working
